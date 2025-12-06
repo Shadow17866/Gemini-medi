@@ -17,11 +17,12 @@ A unified medical AI system that combines three powerful AI agents:
 
 ## 🚀 Quick Deploy
 
-### ⭐ Recommended: Deploy Everything to Vercel
-Deploy both frontend and backend on **one platform**: [VERCEL_DEPLOY.md](./VERCEL_DEPLOY.md)
+### ⭐ Recommended: Deploy to Render
+Deploy both frontend and backend on **Render**: [RENDER_DEPLOY.md](./RENDER_DEPLOY.md)
 
-### Alternative: Separate Platforms
-- **Frontend (Netlify)** + **Backend (Render)**: See [DEPLOYMENT.md](./DEPLOYMENT.md)
+### Alternatives:
+- **Vercel** (One Platform): [VERCEL_DEPLOY.md](./VERCEL_DEPLOY.md)
+- **Netlify + Render** (Separate): [DEPLOYMENT.md](./DEPLOYMENT.md)
 
 ## Architecture
 

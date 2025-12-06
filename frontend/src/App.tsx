@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import { Send, Image as ImageIcon, Mic, Menu, Settings, X, Loader2 } from 'lucide-react';
+import { Send, Image as ImageIcon, Mic, Menu, X, Loader2 } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 
 // Types
@@ -31,7 +31,7 @@ const AGENTS = [
   { id: 'multi-agent', name: 'Advanced Analysis', icon: '🔬', description: 'RAG, Web Search & Image Analysis' }
 ];
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE_URL = (import.meta as any).env?.VITE_API_URL || 'http://localhost:8000';
 
 const App: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
