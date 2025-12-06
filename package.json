@@ -1,0 +1,15 @@
+{
+  "name": "integrated-medical-ai",
+  "version": "1.0.0",
+  "description": "Integrated Medical AI System with FastAPI backend and React frontend",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && python app.py",
+    "frontend": "cd frontend && npm install && npm run dev",
+    "build": "cd frontend && npm install && npm run build",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
